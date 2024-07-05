@@ -1,3 +1,4 @@
+import 'package:gof_flutter/decorator_pattern/starbuzz_coffee.dart';
 import 'package:gof_flutter/observer_pattern/weather_station.dart';
 import 'package:gof_flutter/strategy_pattern/duck_simulator.dart';
 
@@ -6,5 +7,8 @@ void main(List<String> arguments) {
   // runDuckSimulator();
 
   // Observer Pattern
-  runWeatherStation();
+  // runWeatherStation();
+
+  // Decorator Pattern
+  runStarbuzzCoffee();
 }
