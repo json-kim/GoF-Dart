@@ -8,6 +8,7 @@
 - 상호작용하는 객체 사이에서는 가능하면 느슨한 결합(Loose Coupling)을 사용해야 한다.
 - 클래스는 확장에는 열려 있어야 하지만 변경에는 닫혀 있어야 한다(Open-Closed Principle).
 - 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다(Dependency Inversion Principle).
+- 진짜 절친에게만 이야기해야 한다(Principle of Least Knowledge).
 
 
 ## 객제지향 패턴
@@ -20,3 +21,4 @@
 5. 싱글턴 패턴(Singleton Pattern)
 6. 커맨드 패턴(Command Pattern)
 7. 어댑터 패턴(Adapter Pattern)
+8. 퍼사드 패턴(Facade Pattern)

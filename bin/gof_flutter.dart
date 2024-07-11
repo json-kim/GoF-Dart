@@ -2,6 +2,7 @@ import 'package:gof_flutter/adapter_pattern/duck_test_drive.dart';
 import 'package:gof_flutter/command_pattern/remote_control_test.dart';
 import 'package:gof_flutter/command_pattern/remote_loader.dart';
 import 'package:gof_flutter/decorator_pattern/starbuzz_coffee.dart';
+import 'package:gof_flutter/facade_pattern/home_theater_test_drive.dart';
 import 'package:gof_flutter/factory_pattern/pizza_test.dart';
 import 'package:gof_flutter/observer_pattern/weather_station.dart';
 import 'package:gof_flutter/singleton_pattern/singleton_test.dart';
@@ -28,5 +29,8 @@ void main(List<String> arguments) {
   // runRemoteLoader();
 
   // Adapter Pattern
-  runDuckTestDrive();
+  // runDuckTestDrive();
+
+  // Facade Pattern
+  runHomeTheaterTestDrive();
 }
