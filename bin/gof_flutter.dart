@@ -1,3 +1,5 @@
+import 'package:gof_flutter/command_pattern/remote_control_test.dart';
+import 'package:gof_flutter/command_pattern/remote_loader.dart';
 import 'package:gof_flutter/decorator_pattern/starbuzz_coffee.dart';
 import 'package:gof_flutter/factory_pattern/pizza_test.dart';
 import 'package:gof_flutter/observer_pattern/weather_station.dart';
@@ -18,5 +20,9 @@ void main(List<String> arguments) {
   // runPizzaTest();
 
   // Singleton Pattern
-  runSingletonTest();
+  // runSingletonTest();
+
+  // Command Pattern
+  // runRemoteControlTest();
+  runRemoteLoader();
 }
