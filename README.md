@@ -19,3 +19,4 @@
    - 추상 팩토리 패턴(Abstract Factory Pattern)
 5. 싱글턴 패턴(Singleton Pattern)
 6. 커맨드 패턴(Command Pattern)
+7. 어댑터 패턴(Adapter Pattern)

@@ -1,3 +1,4 @@
+import 'package:gof_flutter/adapter_pattern/duck_test_drive.dart';
 import 'package:gof_flutter/command_pattern/remote_control_test.dart';
 import 'package:gof_flutter/command_pattern/remote_loader.dart';
 import 'package:gof_flutter/decorator_pattern/starbuzz_coffee.dart';
@@ -24,5 +25,8 @@ void main(List<String> arguments) {
 
   // Command Pattern
   // runRemoteControlTest();
-  runRemoteLoader();
+  // runRemoteLoader();
+
+  // Adapter Pattern
+  runDuckTestDrive();
 }
