@@ -10,6 +10,7 @@
 - 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다(Dependency Inversion Principle).
 - 진짜 절친에게만 이야기해야 한다(Principle of Least Knowledge).
 - 먼저 연락하지 마세요. 저희가 먼저 연락 드리겠습니다(Hollywood Principle).
+- 어떤 클래스가 바뀌는 이유는 하나뿐이어야 한다(단일 역할 원칙).
 
 
 ## 객제지향 패턴
@@ -24,3 +25,4 @@
 7. 어댑터 패턴(Adapter Pattern)
 8. 퍼사드 패턴(Facade Pattern)
 9. 템플릿 메소드 패턴(Template Method Pattern)
+10. 반복자 패턴(Iterator Pattern)
