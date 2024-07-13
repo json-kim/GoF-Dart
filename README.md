@@ -9,6 +9,7 @@
 - 클래스는 확장에는 열려 있어야 하지만 변경에는 닫혀 있어야 한다(Open-Closed Principle).
 - 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다(Dependency Inversion Principle).
 - 진짜 절친에게만 이야기해야 한다(Principle of Least Knowledge).
+- 먼저 연락하지 마세요. 저희가 먼저 연락 드리겠습니다(Hollywood Principle).
 
 
 ## 객제지향 패턴
@@ -22,3 +23,4 @@
 6. 커맨드 패턴(Command Pattern)
 7. 어댑터 패턴(Adapter Pattern)
 8. 퍼사드 패턴(Facade Pattern)
+9. 템플릿 메소드 패턴(Template Method Pattern)

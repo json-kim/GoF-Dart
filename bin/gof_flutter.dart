@@ -7,6 +7,8 @@ import 'package:gof_flutter/factory_pattern/pizza_test.dart';
 import 'package:gof_flutter/observer_pattern/weather_station.dart';
 import 'package:gof_flutter/singleton_pattern/singleton_test.dart';
 import 'package:gof_flutter/strategy_pattern/duck_simulator.dart';
+import 'package:gof_flutter/template_method_pattern/beverage_test_drive.dart';
+import 'package:gof_flutter/template_method_pattern/duck_sort_test_drive.dart';
 
 void main(List<String> arguments) {
   // Strategy Pattern
@@ -32,5 +34,9 @@ void main(List<String> arguments) {
   // runDuckTestDrive();
 
   // Facade Pattern
-  runHomeTheaterTestDrive();
+  // runHomeTheaterTestDrive();
+
+  // Template Method Pattern
+  // runBeverageTestDrive();
+  runDuckSortTestDrive();
 }
