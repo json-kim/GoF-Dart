@@ -4,6 +4,7 @@ import 'package:gof_flutter/command_pattern/remote_loader.dart';
 import 'package:gof_flutter/decorator_pattern/starbuzz_coffee.dart';
 import 'package:gof_flutter/facade_pattern/home_theater_test_drive.dart';
 import 'package:gof_flutter/factory_pattern/pizza_test.dart';
+import 'package:gof_flutter/iterator_pattern/menu_test_drive.dart';
 import 'package:gof_flutter/observer_pattern/weather_station.dart';
 import 'package:gof_flutter/singleton_pattern/singleton_test.dart';
 import 'package:gof_flutter/strategy_pattern/duck_simulator.dart';
@@ -38,5 +39,8 @@ void main(List<String> arguments) {
 
   // Template Method Pattern
   // runBeverageTestDrive();
-  runDuckSortTestDrive();
+  // runDuckSortTestDrive();
+
+  // Iterator Pattern
+  runMenuTestDrive();
 }
