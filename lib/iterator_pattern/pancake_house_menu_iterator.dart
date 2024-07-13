@@ -1,26 +1,22 @@
-import 'package:gof_flutter/iterator_pattern/my_iterator.dart';
 import 'package:gof_flutter/iterator_pattern/menu_item.dart';
 
-class PancakeHouseMenuIterator implements MyIterator {
+class PancakeHouseMenuIterator implements Iterator<MenuItem> {
   PancakeHouseMenuIterator({required Set<MenuItem> items})
       : items = items.toList();
 
   final List<MenuItem> items;
-  int position = 0;
+  int position = -1;
 
   @override
-  bool hasNext() {
-    if (position >= items.length) {
+  MenuItem get current => items[position];
+
+  @override
+  bool moveNext() {
+    if (position >= items.length - 1) {
       return false;
     } else {
+      position++;
       return true;
     }
-  }
-
-  @override
-  MenuItem next() {
-    final item = items[position];
-    position += 1;
-    return item;
   }
 }

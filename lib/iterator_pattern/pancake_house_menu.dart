@@ -1,8 +1,8 @@
-import 'package:gof_flutter/iterator_pattern/my_iterator.dart';
+import 'package:gof_flutter/iterator_pattern/menu.dart';
 import 'package:gof_flutter/iterator_pattern/menu_item.dart';
 import 'package:gof_flutter/iterator_pattern/pancake_house_menu_iterator.dart';
 
-class PancakeHouseMenu {
+class PancakeHouseMenu implements Menu {
   PancakeHouseMenu()
       : menuItems = {
           MenuItem(
@@ -29,7 +29,8 @@ class PancakeHouseMenu {
 
   final Set<MenuItem> menuItems;
 
-  MyIterator createIterator() {
+  @override
+  Iterator<MenuItem> createIterator() {
     return PancakeHouseMenuIterator(items: menuItems);
   }
 }
