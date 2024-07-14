@@ -26,3 +26,4 @@
 8. 퍼사드 패턴(Facade Pattern)
 9. 템플릿 메소드 패턴(Template Method Pattern)
 10. 반복자 패턴(Iterator Pattern)
+11. 컴포지트 패턴(Composite Pattern)

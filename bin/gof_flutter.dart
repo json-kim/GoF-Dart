@@ -1,6 +1,7 @@
 import 'package:gof_flutter/adapter_pattern/duck_test_drive.dart';
 import 'package:gof_flutter/command_pattern/remote_control_test.dart';
 import 'package:gof_flutter/command_pattern/remote_loader.dart';
+import 'package:gof_flutter/composite_pattern/menu_test_drive.dart';
 import 'package:gof_flutter/decorator_pattern/starbuzz_coffee.dart';
 import 'package:gof_flutter/facade_pattern/home_theater_test_drive.dart';
 import 'package:gof_flutter/factory_pattern/pizza_test.dart';
@@ -42,5 +43,6 @@ void main(List<String> arguments) {
   // runDuckSortTestDrive();
 
   // Iterator Pattern
-  runMenuTestDrive();
+  // runMenuTestDrive();
+  runMenuTestDriveCompositePattern();
 }
