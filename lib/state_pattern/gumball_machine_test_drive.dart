@@ -27,6 +27,7 @@ void runGumballMachineTestDrive() {
   gumballMachine.insertQuarter();
   gumballMachine.insertQuarter();
   gumballMachine.turnCrank();
+  gumballMachine.refill(10);
   gumballMachine.insertQuarter();
   gumballMachine.turnCrank();
   gumballMachine.insertQuarter();
