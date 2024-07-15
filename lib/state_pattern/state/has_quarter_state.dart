@@ -25,7 +25,7 @@ class HasQuarterState implements State {
   }
 
   @override
-  void turnCrank() {
+  bool turnCrank() {
     print('손잡이를 돌리셨습니다');
     int winner = randomWinner.nextInt(10);
     if ((winner == 0) && (gumballMachine.count > 1)) {
@@ -33,6 +33,8 @@ class HasQuarterState implements State {
     } else {
       gumballMachine.setState(gumballMachine.soldState);
     }
+
+    return true;
   }
 
   @override

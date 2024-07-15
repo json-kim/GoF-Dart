@@ -28,3 +28,4 @@
 10. 반복자 패턴(Iterator Pattern)
 11. 컴포지트 패턴(Composite Pattern)
 12. 상태 패턴(State Pattern)
+13. 프록시 패턴(Proxy Pattern)
