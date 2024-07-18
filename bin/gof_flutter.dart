@@ -7,6 +7,8 @@ import 'package:gof_flutter/facade_pattern/home_theater_test_drive.dart';
 import 'package:gof_flutter/factory_pattern/pizza_test.dart';
 import 'package:gof_flutter/iterator_pattern/menu_test_drive.dart';
 import 'package:gof_flutter/observer_pattern/weather_station.dart';
+import 'package:gof_flutter/pattern_complex/duck/counting_duck_factory.dart';
+import 'package:gof_flutter/pattern_complex/duck/duck_simulator.dart';
 import 'package:gof_flutter/singleton_pattern/singleton_test.dart';
 import 'package:gof_flutter/state_pattern/gumball_machine_test_drive.dart';
 import 'package:gof_flutter/strategy_pattern/duck_simulator.dart';
@@ -48,5 +50,8 @@ void main(List<String> arguments) {
   // runMenuTestDriveCompositePattern();
 
   // State Pattern
-  runGumballMachineTestDrive();
+  // runGumballMachineTestDrive();
+
+  // Pattern Complex
+  DuckSimulator().simulate(CountingDuckFactory());
 }
